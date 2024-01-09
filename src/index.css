@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://fonts.google.com/specimen/Raleway);
+@layer base {
+  p {
+    @apply text-base font-normal font-raleway;
+  }
+}
+h1 {
+  @apply font-bold font-raleway text-3xl;
+}
+h2 {
+  @apply font-bold font-raleway text-2xl;
+}
+h3 {
+  @apply font-bold font-raleway text-lg;
+}
